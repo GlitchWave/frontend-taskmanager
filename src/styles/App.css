@@ -1,0 +1,56 @@
+/* Base Application Styles */
+body {
+  background-color: #0097a7;
+  font-family: 'Exo 2';
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+
+.listOfItems {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  font-size: 22px;
+}
+
+.mainHolder {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item {
+  margin-top: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 100;
+  background-color: #B2EBF2;
+  width: 40%;
+  padding: 0 10px 0 10px;
+  border-radius: 4px;
+  height: 35px;
+}
+
+.completed {
+  opacity: .28;
+}
